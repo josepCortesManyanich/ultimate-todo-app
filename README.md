@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# ✨ Ultimate To-do list app ✨
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is your change to review everything we have done so far in module 3, PLUS you will have a really good to-do app to go back to in your future endeavours. 
 
-## Available Scripts
+This app was created with <code>create-react-app</code>, so just run:
 
-In the project directory, you can run:
+```bash
+npm install
+npm run start
+```
 
-### `npm start`
+## Iteration 1: Print tasks
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Create a separate <code>TaskCard</code> component and use it to render all the tasks it on <code>App.jsx</code>. The card for each task should be nice and display all the information of the card.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🚧 *Styles are not a bonus, they are a MUST!* 🚧  
+This time, you will work *desktop-first*: display the cards with display flex and present them nicely.
 
-### `npm test`
+## Iteration 2: Delete tasks
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Create the functions you need on <code>TaskCard</code> and on <code>App.jsx</code> to delete tasks when clicking a delete button.
 
-### `npm run build`
+## Iteration 3: Filter tasks
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Create a separate <code>SearchBar</code> component and send the value to the <code>App.jsx</code> to filter the tasks shown.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Iteration 4: Create tasks
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Create a separate <code>NewTask</code> component with all the fields necessary to create a new task. Save the information in the component's state, and *lift the state* to the parent <code>App.jsx</code> to add the new task.
 
-### `npm run eject`
+## Iteration 5: Order tasks by urgency
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Create a function <code>handleUrgency</code>

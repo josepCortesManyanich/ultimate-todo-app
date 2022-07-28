@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Do the IronNutrition ironhack lab",
+    "image": "",
+    "link": "",
+    "urgency": 10,
+    "description": "Do the lab",
+    "done": false
+  },
+  {
+    "name": "Finish ReactTraining ironhack lab iterations",
+    "image": "",
+    "link": "",
+    "urgency": 10,
+    "description": "Do the lab",
+    "done": false
+  },
+  {
+    "name": "Do this ***** application",
+    "image": "",
+    "link": "",
+    "urgency": 10,
+    "description": "Make the ultimate most bestest to-do app that you'll see in your life",
+    "done": false
+  },
+  {
+    "name": "Do the codewars kata 1",
+    "image": "",
+    "link": "",
+    "urgency": 9,
+    "description": "Do the lab",
+    "done": false
+  },
+  {
+    "name": "Do the codewars kata 2",
+    "image": "",
+    "link": "",
+    "urgency": 9,
+    "description": "Do the lab",
+    "done": false
+  }
+]
