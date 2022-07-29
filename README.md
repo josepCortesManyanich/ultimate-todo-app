@@ -47,6 +47,6 @@ Create a function <code>handleUrgency</code>. Then, add a button on top of your 
 
 ## BONUS 🎯 
 
-Add as many features as you wish to make sure you win this fierce puma competition. Get inspired and do whatever comes to mind: make it responsive, add more functionalities / more complex tasks... get inspired 💡!
+Add as many features as you wish to make sure you win this fierce puma competition. Get inspired and do whatever comes to mind: add amazing styles, make it responsive, add more functionalities / more complex tasks (you can edit the task fields if you want)... get inspired 💡!
 
 
