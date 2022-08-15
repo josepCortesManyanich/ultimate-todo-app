@@ -3,6 +3,7 @@ import './App.css';
 import taskData from './list.json';
 import TaskCard from './components/TaskCard';
 import SearchBar from './components/SearchBar';
+import CreateTask from './components/CreateTask';
 
 function App() {
   const [task, setTask] = useState(taskData)
@@ -25,6 +26,12 @@ function App() {
     const ordered = [...task].sort((a,b) => a.urgency - b.urgency)
     setTask(ordered)
   }
+
+  const handleCreate = (task1) => {
+      const newTask = [...task].push(task1)
+      setTask(newTask)
+  }
+
   
 
 
@@ -33,6 +40,10 @@ function App() {
       <h1>My tasks</h1>
       <button onClick={handleUrgency}>Urgency tasks</button>
       <nav> <SearchBar onSearch={handleSearch}/></nav>
+      <div>
+        <CreateTask onCreate={handleCreate}/>
+      </div>
+      
       {task.map(elem =>  {
         return(
           <div key={elem._id}>
